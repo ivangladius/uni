@@ -1,0 +1,13 @@
+
+#+TITLE: First Lecture
+#+AUTHOR: Maximilian Ivan Filipov
+#+OPTIONS: toc:t
+
+
+* Quiz
+\vspace*{0.5cm}
+** snowcards
+- atomic requirement
+- collected into requirement categories
+** user requirements
+-
