@@ -10,4 +10,11 @@
 - atomic requirement
 - collected into requirement categories
 ** user requirements
--
+- document of flow of operations
+- are written from a user point of view
+** user story mapping
+- sorting importance of task
+\pagebreak
+\vspace*{-4cm}
+*  Unified Modeling Language ( UML )
+
