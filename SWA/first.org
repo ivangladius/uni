@@ -4,6 +4,7 @@
 #+OPTIONS: toc:t
 
 
+\pagebreak
 * Quiz
 \vspace*{0.5cm}
 ** snowcards
@@ -17,4 +18,31 @@
 \pagebreak
 \vspace*{-4cm}
 *  Unified Modeling Language ( UML )
+** Behaviour Diagram
+**** Activity Diagram
+**** State Machine Diagram
+**** Use Case Diagram
+**** Sequence Diagram
+** Structure Diagram
+**** Class Diagram
+**** Component Diagram
+**** Object Diagram
+\vspace*{0.5cm}
 
+* USE CASE DIAGRAM
+** Diagrams
+**** System
+**** Actors
+**** Primary and Secondary Actors
+**** Use cases
+**** Relationships
+** Use case calls
+**** main \Rightarrow included use case
+**** main \Leftarrow extends use case
+** extension points
+**** optional operation ( if \ else )
+
+** Specialized use cases
+**** like polymophism / inheritance
+
+* magic draw 10.18. -> Folie

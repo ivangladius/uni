@@ -1,0 +1,55 @@
+
+#+TITLE: Labor Aufgabe 3
+#+AUTHOR: Maximilian Ivan Filipov
+#+OPTIONS: toc:t
+
+
+
+
+\newpage
+** Aufgabe 3
+
+\begin{gather*}
+T1(22,6) \\
+T2(15,3) \\
+T3(8, 1) \\
+T4(20,4) 
+\end{gather*}
+  
+  
+#+begin_center
+Schedulability test:
+#+end_center
+\begin{gather*}
+  U \leq n\times(2^\frac{1}{n}-1)
+\end{gather*}
+
+
+#+begin_center
+Zuerst berechnen wir U:
+#+end_center
+\begin{gather*}
+U = \sum_{i=1}^{n}\frac{e_i}{D_i} = \\
+U = \sum_{i=1}^{4}
+U = \frac{6}{22} + \frac{15}{3} + \frac{8}{1} + \frac{4}{20} = \textbf{0.79772}
+\end{gather*}
+#+begin_center
+Nun berechnen wir die rechte Seite: 
+#+end_center
+\begin{gather*}
+n \times (2^\frac{1}{n}-1) \\
+4 \times (2^\frac{1}{4} - 1) = \textbf{0.75682}
+\end{gather*}
+#+begin_center
+Da die Schedulability test in diesem fall fehl schlaegt da,
+#+end_center
+\begin{gather*}
+  0,79772 \leq 0,75682
+\end{gather*}
+#+begin_center
+nicht wahr ist, schlaegt der RMS algorithmus fehl, wie es sich in Aufgabe 2 zeigt.
+#+end_center
+
+
+
+

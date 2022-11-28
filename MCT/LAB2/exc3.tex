@@ -1,0 +1,74 @@
+% Created 2022-11-25 Fri 22:12
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Maximilian Ivan Filipov}
+\date{\today}
+\title{Labor Aufgabe 3}
+\hypersetup{
+ pdfauthor={Maximilian Ivan Filipov},
+ pdftitle={Labor Aufgabe 3},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.2 (Org mode 9.5.5)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\newpage
+\section{Aufgabe 3}
+\label{sec:org58b2db2}
+
+\begin{gather*}
+T1(22,6) \\
+T2(15,3) \\
+T3(8, 1) \\
+T4(20,4) 
+\end{gather*}
+
+
+\begin{center}
+Schedulability test:
+\end{center}
+\begin{gather*}
+  U \leq n\times(2^\frac{1}{n}-1)
+\end{gather*}
+
+
+\begin{center}
+Zuerst berechnen wir U:
+\end{center}
+\begin{gather*}
+U = \sum_{i=1}^{n}\frac{e_i}{D_i} = \\
+U = \sum_{i=1}^{4}
+U = \frac{6}{22} + \frac{15}{3} + \frac{8}{1} + \frac{4}{20} = \textbf{0.79772}
+\end{gather*}
+\begin{center}
+Nun berechnen wir die rechte Seite: 
+\end{center}
+\begin{gather*}
+n \times (2^\frac{1}{n}-1) \\
+4 \times (2^\frac{1}{4} - 1) = \textbf{0.75682}
+\end{gather*}
+\begin{center}
+Da die Schedulability test in diesem fall fehl schlaegt da,
+\end{center}
+\begin{gather*}
+  0,79772 \leq 0,75682
+\end{gather*}
+\begin{center}
+nicht wahr ist, schlaegt der RMS algorithmus fehl, wie es sich in Aufgabe 2 zeigt.
+\end{center}
+\end{document}
